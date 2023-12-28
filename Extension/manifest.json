@@ -1,0 +1,23 @@
+{
+    "name": "Translate extension",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "An extension to display the NASA picture of the day.",
+    "icons": {
+        "68": "icons/icons68x68.png"
+    },
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://m.facebook.com/",
+                "https://www.facebook.com/"
+            ],
+            "js": [
+                "translate.js"
+            ]
+        }
+    ]
+}
