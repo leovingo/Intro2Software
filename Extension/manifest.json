@@ -13,7 +13,7 @@
         {
             "matches": [
                 "https://m.facebook.com/",
-                "https://www.facebook.com/"
+                "https://www.facebook.com/*"
             ],
             "js": [
                 "translate.js"
