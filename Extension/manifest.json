@@ -17,7 +17,14 @@
             ],
             "js": [
                 "translate.js"
-            ]
+            ],
+            "run_at": "document_idle"
         }
+    ], 
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "storage",
+        "windows"
     ]
 }
