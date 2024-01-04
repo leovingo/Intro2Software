@@ -5,6 +5,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 body{
+    width: 500px;
+    height: 100vh;
     margin: 0;
     padding: 0;
     background-color: #F2D5DD;
@@ -17,14 +19,14 @@ h1 {
     padding: 200px 0;
 }
 
-.side-bar {
+/* .side-bar {
     background-color: #202123;
     width: 244px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 
 .main {
     display: flex;
@@ -89,6 +91,9 @@ button {
     border-radius: 10px;
     padding: 10px;
     margin: 10px;   
+    position: absolute;
+    top: 450px;  
+    left: 10px;
 }
 
 nav {

@@ -1,13 +1,10 @@
 {
-    "name": "Translate extension",
+    "name": "Quark",
     "version": "0.0.0.1",
     "manifest_version": 3,
     "description": "An extension to display the NASA picture of the day.",
-    "icons": {
-        "68": "icons/icons68x68.png"
-    },
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "app/index.html"
     },
     "content_scripts": [
         {
@@ -16,15 +13,17 @@
                 "https://www.facebook.com/*"
             ],
             "js": [
-                "app.js"
+                "app/main.js",
+                "api/index.js"
             ],
             "run_at": "document_idle"
         }
-    ], 
+    ],
     "permissions": [
         "tabs",
         "activeTab",
         "storage",
-        "windows"
+        "windows",
+        "webNavigation"
     ]
 }

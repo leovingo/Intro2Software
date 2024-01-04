@@ -1,0 +1,16 @@
+{
+    "name": "Translate extension",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "An extension to display the NASA picture of the day.",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "storage",
+        "windows",
+        "webNavigation"
+    ]
+}

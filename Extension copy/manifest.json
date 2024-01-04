@@ -7,7 +7,7 @@
         "68": "icons/icons68x68.png"
     },
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "popup/popup.html"
     },
     "content_scripts": [
         {
@@ -16,7 +16,7 @@
                 "https://www.facebook.com/*"
             ],
             "js": [
-                "app.js"
+                "translate.js"
             ],
             "run_at": "document_idle"
         }
