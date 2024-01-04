@@ -1,4 +1,4 @@
-const API_KEY = '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';
+const API_KEY = '';
 const chatBox = document.querySelector('.chat-box');
 const inputField = chatBox.querySelector("input[type='text']");
 const button = chatBox.querySelector('button');
