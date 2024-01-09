@@ -92,4 +92,9 @@ const createMessage = (message, isResponse) => {
       chatBoxBody.scrollTop = chatBoxBody.scrollHeight;
     }
   });
+
+  document.querySelector('.new-chat-btn').addEventListener('click', function() {
+    // Reload the page to restart the chatbot
+    location.reload();
+  });
   
