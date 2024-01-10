@@ -21,7 +21,7 @@ const createMessage = (message, isResponse) => {
     const API_KEY = "";
     const chatBox = document.querySelector(".chat-box");
     const inputField = chatBox?.querySelector("input[type='text']");
-    const button = chatBox.querySelector("button");
+    const button = chatBox.querySelector(".send-btn");
     const chatBoxBody = chatBox.querySelector(".chat-box-body");
   
     button.addEventListener("click", sendMessage);
