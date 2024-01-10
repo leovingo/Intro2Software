@@ -2,7 +2,7 @@
     "name": "Quark",
     "version": "0.0.0.1",
     "manifest_version": 3,
-    "description": "An extension to display the NASA picture of the day.",
+    "description": "An extension that helps you call chatGPT anywhere.",
     "icons": {
         "68": "icons/icons68x68.png"
     },
@@ -13,7 +13,12 @@
         {
             "matches": [
                 "https://m.facebook.com/",
-                "https://www.facebook.com/*"
+                "https://www.facebook.com/*",
+                "https://www.messenger.com/*",
+                "https://www.instagram.com/*",
+                "https://twitter.com/*",
+                "https://www.reddit.com/*",
+                "https://mail.google.com/*"
             ],
             "js": [
                 "app/main.js"
