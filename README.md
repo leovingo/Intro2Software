@@ -9,5 +9,5 @@ Go to: https://platform.openai.com/api-keys to get your personal API key
 - Click into icons Quark
 - Using it!
 ## About author:
-- leovingo - Thao Nguyen Phuong (main development)
+- leovingo - Thao Nguyen Phuong (main developer)
 - NgHuyen137 - Huyen Nguyen (suporter)
