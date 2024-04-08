@@ -18,7 +18,7 @@ const createMessage = (message, isResponse) => {
   };
   
   document.addEventListener("DOMContentLoaded", function () {
-    const API_KEY = "";
+    const API_KEY = ""; //Go to platform OpenAI for give your personal API key
     const chatBox = document.querySelector(".chat-box");
     const inputField = chatBox?.querySelector("input[type='text']");
     const button = chatBox.querySelector(".send-btn");
