@@ -10,3 +10,4 @@ Go to: https://platform.openai.com/api-keys to get your personal API key
 - Using it!
 ## About author:
 leovingo - Thao Nguyen Phuong (main development)
+NgHuyen137 - Huyen Nguyen (suporter)
